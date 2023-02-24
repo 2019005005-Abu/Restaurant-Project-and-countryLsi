@@ -1,0 +1,14 @@
+#all_countries{
+    display:  grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+.county{
+    background-color: antiquewhite;
+    margin: 10px;
+    border: 2px solid red;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
